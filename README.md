@@ -22,4 +22,4 @@ Some hyperlinks may not work due to expired ShortURL links.
 
 # Running the program
 
-To view, navigate to the website folder and view the file 'index.html' through a web browser, after which you can navigate to other pages through hyperlinks.
+To view, navigate to the website folder and view `index.html` through a web browser, after which you can navigate to other pages through hyperlinks.
