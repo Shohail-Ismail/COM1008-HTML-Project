@@ -16,7 +16,9 @@ Accessibility guidelines and HTML validation were applied to meet WCAG standards
 
 # Testing and Limitations
 
-Testing has been done on the website and limitations identified, with these viewable through the 'Testing' section in the website.
+Testing has been done on the website and some limitations identified, with these viewable through the 'Testing' section in the website.
+
+Some hyperlinks may not work due to expired ShortURL links.
 
 # Running the program
 
