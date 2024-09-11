@@ -20,4 +20,4 @@ Testing has been done on the website and limitations identified, with these view
 
 # Running the program
 
-To view, download website.zip, extract files, then click any one of the HTML files and view in web browser, navigating to other pages through hyperlinks.
+To view, click any one of the HTML files and view in web browser, navigating to other pages through hyperlinks.
