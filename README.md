@@ -20,4 +20,4 @@ Testing has been done on the website and limitations identified, with these view
 
 # Running the program
 
-To view, click any one of the HTML files and view in web browser, navigating to other pages through hyperlinks.
+To view, navigate to the website foler and view index.HTML in web browser, then navigate to other pages through hyperlinks.
