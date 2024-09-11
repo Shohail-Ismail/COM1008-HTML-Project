@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>SSLC - Testing</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1 id="openingHeading">Staff-Student Liaison Committee</h1>
+        <h2>Testing</h2>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./purpose.html">What is our mission?</a></li>
+                <li><a href="./membership.html">Meet our members</a></li>
+                <li><a href="./correspondence.html">Meetings & Correspondence</a></li>
+                <li><a href="./contact.html">Contact us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h3> Optimisation </h3>
+        <p> To enhance the website experience, images have been compressed
+            losslessly to reduce file size without compromising on quality.
+            This ensures faster loading times on all devices, thus contributing to
+            a pleasant browsing experience.
+        </p>
+        <h3> Debugging </h3>
+        <p> Using Steve Faulkner's 'NU HTML Checker', I checked each of my
+            pages for errors, inconsistencies, and poor code, through which
+            I validated, debugged, and optimised it.
+        </p>
+        <div class="testing-pics">
+            <h4>index.html</h4>
+            <p>
+                After passing the 'Home' page into the validation checker, the following
+                message was shown:
+            </p>
+            <img src="images/1.png" alt="index.html validation">
+            <p>To rectify this, a language attribute was defined for the &lt;html&gt;
+            tags as "English" and the character set was defined as 'UTF-8', as this
+            is enough to encode most characters that the average user will
+            use and so is convention.
+            </p>
+            <p><strong>BEFORE:</strong></p>
+            <img src="images/2.png" alt="index.html errors">
+            <p><strong>AFTER:</strong></p>
+            <img src="images/3.png" alt="index.html reparations 1">
+            <p> After making the necessary changes, passing 'index.html' back into the
+                website reveals that it has now been validated according to
+                the WCAG guidelines that the website checks against.
+                <img src="images/5.png" alt="index.html reparations 2">
+            </p>
+
+            <h4>purpose.html</h4>
+            <p>
+                Inputting 'purpose.html' shows that there is, first and foremost,
+                a simple syntax error where &lt;head&gt; has been duplicated. This
+                can be fixed immediately before referring to the other errors.
+            </p>
+            <img src="images/6.png" alt="purpose.html validation">
+            <p><strong>BEFORE:</strong></p>
+            <img src="images/7.png" alt="purpose.html validation">
+            <p><strong>AFTER:</strong></p>
+            <img src="images/8.png" alt="purpose.html validation">
+            <p>
+                After this is another simple issue that arose due to &lt;body&gt; being above
+                &lt;footer&gt;, which can also be fixed by simply nesting &lt;footer&gt;
+                inside &lt;body&gt;.
+            </p>
+            <img src="images/9.png" alt="purpose.html validation">
+            <p><strong>BEFORE:</strong></p>
+            <img src="images/10.png" alt="purpose.html validation">
+            <p><strong>AFTER:</strong></p>
+            <img src="images/11.png" alt="purpose.html validation">
+            <p>
+                Passing the newly-edited 'purpose.html' into the checker reveals
+                that the errors have been sorted and the page is validated.
+            </p>
+            <img src="images/12.png" alt="purpose.html validation">
+            </p>
+
+            <h4>membership.html</h4>
+            <p> Passing in 'membership.html' shows that it is already free of errors,
+                meaning it is validated. </p>
+            <img src="images/13.png" alt="membership.html validation">
+
+            <h4>correspondence.html</h4>
+            <p> As with 'membership.html', the 'Meetings and Correspondence' page
+                shows that it possesses no errors and so can be considered to be validated.
+            </p>
+            <img src="images/14.png" alt="correspondence.html validation">
+
+            <h4>contact.html</h4>
+            <p> 'contacts.html' is shown to have a syntax error stemming from using the
+                'placeholder' attribute with the &lt;select&gt; element, which is not valid
+                as &lt;select&gt; offers a drop-down menu that cannot have a placeholder statement
+                without the statement being one of the choosable options. Therefore, it is removed.
+            </p>
+            <img src="images/15.png" alt="contacts.html validation">
+            <p><strong>BEFORE:</strong></p>
+            <img src="images/16.png" alt="contacts.html validation">
+            <p><strong>AFTER:</strong></p>
+            <img src="images/17.png" alt="contacts.html validation">
+            <p> Following through from the previous error, the first option of a required
+                single-selection, drop-down &lt;select&gt; menu must be a placeholder option which
+                is intended to be used to inform the user of how to use the menu. Although the
+                error statement offers a 'size' attribute equal to the number of option elements
+                be used, this is not the intended layout of the menu and would make it large
+                and clunky, which is antithetical to the simplistic, modern design that is required. Therefore,
+                a placeholder option label is added with no value for the 'value' attribute to ensure it will never
+                be recorded by the server as a valid option.
+            </p>
+            <img src="images/18.png" alt="contacts.html validation">
+            <p><strong>BEFORE:</strong></p>
+            <img src="images/19.png" alt="contacts.html validation">
+            <p><strong>AFTER:</strong></p>
+            <img src="images/20.png" alt="contacts.html validation">
+            <p>After rectifying these errors, the page has been validated.</p>
+            <img src="images/21.png" alt="contacts.html validation">
+
+            <h4>accessibility.html</h4>
+            <p> After being passed into the checker, the 'Accessibility' page is not seen to have errors and so is
+                classed as validated.
+            </p>
+            <img src="images/22.png" alt="accessibility.html validation">
+
+            <h4>legal.html</h4>
+            <p> The error in 'legal.html' is that &lt;section&gt;s have been used without any headings,
+                meaning they serve no other purpose than encapsulating similar chunks of text, which can
+                be accomplished with &lt;div&gt;s and so are replaced.
+            </p>
+            <img src="images/23.png" alt="legal.html validation">
+            <p><strong>BEFORE:</strong></p>
+            <img src="images/24.png" alt="legal.html validation">
+            <p><strong>AFTER:</strong></p>
+            <img src="images/25.png" alt="legal.html validation">
+            <p>Following this, the page is free of errors and validated.</p>
+            <img src="images/26.png" alt="legal.html validation">
+
+            <h4>design.html</h4>
+            <p> The 'Design' page is validated to be free of errors.</p>
+            <img src="images/27.png" alt="design.html validation">
+
+            <h4>testing.html</h4>
+            <p> </p>
+            <img src="images/1.png" alt="testing.html validation">
+        </div>
+
+        <h3> Browser testing </h3>
+        <p> I tested 3 different browsers (Google Chrome, Mozilla Firefox emulator, and Microsoft
+            Edge emulator) and found that all 3 can run the website as intended and all links direct to the page that they
+            are required to. This is due to all 3 browsers adhering to standards set by
+            the World Wide Web Consortium (W3C) and the Internet Engineering Task Force (IETF) for HTML5 and therefore render the pages
+            identically.
+            <br> Furthermore, by using the Google Chrome Remote Desktop tool, I was able to view
+            the website on my phone, thereby getting a mobile view of the website.
+        </p>
+
+        <h3> Accessibility </h3>
+        <p><strong> Styles based on screen sizes:</strong>
+            Media queries are used to set the default styles

@@ -1,0 +1,303 @@
+* {
+    box-sizing: border-box;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 
+    'Helvetica Neue', sans-serif;
+    line-height: 1.5;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(0, 148, 148);
+    margin: 20px 0;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(0, 102, 102);
+    margin: 20px 0;
+}
+
+h3 {
+    text-align: center;
+    margin: 20px 0;
+    color: rgb(0, 102, 102);
+}
+
+h4 {
+    text-align: center;
+    margin: 20px 0;
+    color: rgb(0, 102, 102);
+}
+
+header {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 6px -6px black;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li:hover {
+    background-color: gray;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+main {
+    padding: 20px;
+    flex: 1;
+}
+
+.info {
+    text-align: center;
+}
+
+.info img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: white;
+    padding: 20px;
+    clear: both;
+    position: relative;
+    box-shadow: 0 -4px 6px -6px black;
+}
+
+footer nav {
+    justify-content: center;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+li p {
+    text-align: center;
+}
+
+h3 {
+    margin-left: 20px;
+}
+
+.photo-cred {
+    font-size:13px;
+    text-align:center;
+}
+
+.postgrad-heading {
+    font-size: 20px;
+}
+
+#copyright {
+    padding: 0;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+#sslc-uses li {
+    font-size: 20px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.image-option img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    margin-bottom: 5px;
+    padding: 0, 5px;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.radio-input {
+    display: none;
+}
+
+.radio-input:checked + div .wrong-option {
+    border-color: red;
+    border-width: 5px;
+}
+
+.radio-input:checked + div .right-option {
+    border-color: green;
+    border-width: 5px;
+}
+
+.checkmark,
+.cross {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    background-color: white;
+    display: none;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: white;
+}
+
+.general-enquiry {
+    text-align: center;
+}
+
+#submit {
+    font-size: 20px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    color: black;
+}
+
+.comments {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+#submit {
+    background-color: rgb(0, 148, 148);; /* Blue button color */
+    color: white; /* White button text color */
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background-color: rgb(0, 102, 102);; /* Darker blue on hover */
+}
+
+#sitemap {
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.prototypes {
+    text-align:center;
+}
+
+.prototypes img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 8px; 
+}
+
+.testing-pics img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 1px;
+    border: 2px solid black;
+    border-radius: 8px; 
+}
+
+/* Responsive Design */
+/* Styles for small screens */
+@media only screen and (max-width: 600px) {
+    header {
+        padding: 15px;
+    }
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+    footer ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
+
+/* Styles for medium screens */
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    header {
+        padding: 20px;
+    }
+    nav ul li {
+        display: inline-block;
+        margin: 0 10px;
+    }
+    footer ul li {
+        display: inline-block;
+        margin: 0 10px;
+    }
+}
+
+/* Styles for larger screens */
+@media only screen and (min-width: 901px) {
+    header {
+        padding: 30px;
+    }
+    nav ul li {
+        display: inline-block;
+        margin: 0 15px;
+    }
+    footer ul li {
+        display: inline-block;
+        margin: 0 15px;
+    }
+}

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>SSLC - Purpose</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1 id="openingHeading">Staff-Student Liaison Committee</h1>
+        <h2>Design</h2>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./purpose.html">What is our mission?</a></li>
+                <li><a href="./membership.html">Meet our members</a></li>
+                <li><a href="./correspondence.html">Meetings & Correspondence</a></li>
+                <li><a href="./contact.html">Contact us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h3>Design statement</h3>
+        <p> The University of Sheffield SSLC website was made by Shohail Ismail
+            as a HTML/CSS project as part of the Computer Science (Course code: G403)
+            COM1008 coursework. It is intended to be an informative yet informal website
+            that serves to entertain as well as educate. It was designed using
+            Mobile-First Responsive Web Design principles, thus catering to
+            all devices and - owing to its a wide range of accessibility features -
+            to all people as well.
+        </p>
+
+        <h3>Site Map</h3>
+        <div id="sitemap"><img src="images/SiteMap.png" alt="Site Map"> </div>
+        <h3>Prototypes</h3>
+        <h4>Desktop:</h4>
+        <div class="prototypes">
+            <img src="images/Desktop.png" alt="Website desktop prototype">
+        </div>
+        <h4> Tablet:</h4>
+        <div class="prototypes">
+            <img src="images/Tablet.png" alt="Tablet desktop prototype">
+        </div>
+        <h4> Mobile:</h4>
+        <div class="prototypes">
+            <img src="images/Mobile.png" alt="Mobile desktop prototype">
+        </div>
+
+        <h3>Reasoning</h3>
+        <p> <strong>For screen size</strong>, I will aim to use roughly 3 breakpoints based on screen width; small
+            (500px and below), medium (501px - 750px) and large (751px and above).
+            The tweakpoints I aim to include will likely be in relation to the
+            header, footer and some elements of the margins for the body as these
+            are the areas that are most at risk of deformation with the changing of
+            screen sizes.
+        </p>
+        <p>
+            <strong>For resolution</strong>, I aim to include low-resolution and high-resolution versions
+            of every image for their corresponding devices, therefore there will be
+            2 breakpoints. The tweakpoints I will likely include are the images that I use, as
+            there will be 2 possible images for each &lt;img&gt;.
+        </p>
+        <p>
+            <strong>For orientation</strong>, I aim to create 2 breakpoints for 'landscape' and
+            'portrait' orientations, with the tweakpoints focussing on te footer, header and
+            aspects of the body's margin and padding, as switching from the standard portrait
+            to landscape orientation can be accounted for on a computer due to the lower
+            aspect ratio compared to a mobile's landscape version, which has a significantly
+            higher aspect ratio and so more width that must be filled. It would also be
+            beneficial to implement a larger scrollbar for horizontal mobile devices as the standard
+            scrollbar may be too small and not ergonomic to use.
+        </p>
+        <h3>Menu System</h3>
+        <p> <strong>Flexbox:</strong>
+            I have chosen to use flexboxes as opposed to grid layout as flexboxes
+            are versatile and simple to implement for a responsive menu system. Their ability to handle
+            the dynamic arrangement and alignment of items within a container make them an ideal choice for
+            constructing flexible and adaptive layouts, thereby also ensuring a user-friendly
+            experience.</p>
+        <p><strong>Media Queries:</strong>
+            Media queries are employed to adjust the menu system's appearance and behavior across
+            different screen sizes, orientations and resolutions. By using breakpoints encompassing
+            certain tweakpoints, media queries allow for targeted adjustments in styling based on certain
+            device conditions, thus enhancing the usability of the menu and promoting
+            readability and accessibility.
+        </p>
+    </main>
+    <footer>
+        <p id="copyright">&copy; 2023 Shohail Ismail. All rights reserved.</p>
+        <nav>
+            <ul>
+                <li><a href="./accessibility.html">Accessibility</a></li>
+                <li><a href="./legal.html">Legal & Security</a></li>
+                <li><a href="./design.html">Design</a></li>
+                <li><a href="./testing.html">Testing</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+
+</html>

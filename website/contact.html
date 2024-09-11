@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>SSLC - Purpose</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1 id="openingHeading">Staff-Student Liaison Committee</h1>
+        <h2> Contact us</h2>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./purpose.html">What is our mission?</a></li>
+                <li><a href="./membership.html">Meet our members</a></li>
+                <li><a href="./correspondence.html">Meetings & Correspondence</a></li>
+                <li><a href="./contact.html">Contact us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="contact-details">
+            <h2>General enquiries</h2>
+            <p class="general-enquiry">University of Sheffield, Department of Computer Science:
+                <a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=dcs@sheffield.ac.uk">
+                    dcs@sheffield.ac.uk</a>
+            </p>
+        </section>
+
+        <section class="contact-form">
+            <h2>Send us comments</h2>
+            <p class="general-enquiry">Enter your email, the staff member/department you wish to address
+                and the comments that you wish to relay to them, then simply press
+                'Submit Comments'
+            </p>
+            <form action="mailto:SSLC-comments@sheffield.ac.uk" method="post">
+                <label for="email">Your Email:</label>
+                <input type="email" class="comments" id="email" required>
+                <br>
+                <label for="recipient">Which staff member is it for?:</label>
+                <select class="comments" id="recipient" required>
+                    <option value="Chair">Chair - Olakunle Olayinka</option>
+                    <option value="Secretary">Secretary - Lizzie Bridges / Max Rowlands</option>
+                    <option value="Departmental Admin Manager">Departmental Admin Manager - Kimberley Matthews-Hyde
+                    </option>
+                    <option value="Learning & Teaching Manager">Learning & Teaching Manager - Zoe Fletcher / Eliza Shaw
+                    </option>
+                    <option value="Senior Student Support Officer">Senior Student Support Officer - TBC</option>
+                    <option value="Progression Tutor (Level 1 & Level 3)">Progression Tutor (Level 1 & Level 3) - Mark
+                        Hepple</option>
+                    <option value="Progression Tutor (Level 2 & Level 4)">Progression Tutor (Level 2 & Level 4) - Kirill
+                        Bogdanov</option>
+                    <option value="Course Director for MSc Cybersecurity & AI">Course Director for MSc Cybersecurity &
+                        AI - Benjamin Dowling</option>
+                    <option value="Course Director for MSc Data Analytics/NLP">Course Director for MSc Data Analytics/
+                        MSc Computer Science with Speech & Language Processing - Stefan Goetze</option>
+                    <option value="Director of Education">Director of Education - Emma Norling</option>
+                    <option value="MSc Director">MSc Director - Jon Barker</option>
+                    <option value="Head of Department">Head of Department - Heidi Christensen</option>
+                    <option value="Wellbeing Adviser">Wellbeing Adviser - Mel Wise</option>
+                    <option value="Learning Technologist and Software Engineer">Learning Technologist and Software
+                        Engineer - Claire Storey</option>
+                    <option value="Faculty Librarian">Faculty Librarian - Emily Herron</option>
+                    <option value="Exams Officer/Diamond SLA">Exams Officer/Diamond SLA - Anton Ragni</option>
+                </select>
+                <br>
+                <label for="comments">Your Comments:</label>
+                <textarea class="comments" id="comments" rows="4" required></textarea>
+                <br>
+                <button id="submit" type="submit">Submit Comments</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p id="copyright">&copy; 2023 Shohail Ismail. All rights reserved.</p>
+        <nav>
+            <ul>
+                <li><a href="./accessibility.html">Accessibility</a></li>
+                <li><a href="./legal.html">Legal & Security</a></li>
+                <li><a href="./design.html">Design</a></li>
+                <li><a href="./testing.html">Testing</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+
+</html>
